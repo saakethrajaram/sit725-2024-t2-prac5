@@ -1,0 +1,40 @@
+.navbar-size {
+    width: 95%;
+    margin: 0 auto;
+    }
+    .user-image-size {
+    height: 56px;
+    margin: 4px 0;
+    }
+    .main-body {
+    background-color: #000000;
+    color: white;
+    height: calc(100vh - 64px);
+    }
+    .materialboxed-image {
+    margin: 0 auto;
+    height: 400px;
+    }
+    
+    .click-me-button {
+        background-color: #EE6E73; /* Primary button color */
+        color: white; /* Text color */
+        font-size: 18px; /* Text size */
+        padding: 10px 20px; /* Padding */
+        border-radius: 8px; /* Rounded corners */
+        transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    }
+    
+    .click-me-button:hover {
+        background-color: #d63c39; /* Darker shade on hover */
+        transform: scale(1.05); /* Slightly enlarge the button */
+    }
+    
+    .click-me-button:focus {
+        outline: none; /* Remove default focus outline */
+    }
+    
+    .click-me-button .material-icons {
+        vertical-align: middle; /* Center icon vertically with text */
+    }
+    
